@@ -1,4 +1,4 @@
-# Page layout
+<h1 align="center">Page layout</h1>
 
-### The login page layout will be based on the image from the same repository that was found at:
-<https://br.pinterest.com/pin/619245017493003566/>
+<p align="center">The login page layout will be based on the image from the same repository that was found at:</p>
+<p align="center"><https://br.pinterest.com/pin/619245017493003566/></p>
