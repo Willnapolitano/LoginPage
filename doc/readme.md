@@ -1,5 +1,5 @@
 # <h1 align="center">🔒Login Page🔒</h1>
-## <p align="center">This is a project of a solo login page with registration, protection for sql injection and filter</p>
+## <p align="center">This is a project of a solo login page with registration, protection for sql injection and filter and and responsive web design</p>
 
  # Table of contents
  
@@ -30,10 +30,11 @@
   
 # Features 
   - [ ] Layout
+  - [ ] Responsive web design
   - [ ] Login system
-  - [ ] sql protection
-  - [ ] filter
-  - [ ] finalization
+  - [ ] Sql protection
+  - [ ] Filter
+  - [ ] Finalization
   
 # <h1 align="center">Author</h1>
 
