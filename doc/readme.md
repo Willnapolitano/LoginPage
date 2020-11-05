@@ -1,5 +1,5 @@
 # <h1 align="center">🔒Login Page🔒</h1>
-## <p align="center">This is a project of a solo login page with registration, protection for sql injection and filter and and responsive web design</p>
+## <p align="center">This is a project of a solo login page with registration, protection for sql injection and filter and responsive web design</p>
 
  # Table of contents
  
