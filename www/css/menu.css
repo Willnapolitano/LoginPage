@@ -1,0 +1,124 @@
+div.menu ul{
+    display: flex;
+    justify-content: center;
+}
+
+div.menu ul{
+    list-style-type: none;
+}
+
+div.menu ul li{
+
+	margin-left:  5%;
+	display: block;
+	padding: 10px;
+	border-top: 0.1px solid black;
+	font-size: 3.5rem;
+	transition: 0.5s ease-in;
+	
+}
+
+div.menu ul li:hover{
+	border-top:1px solid #5F99EC;
+	font-size: 3.8rem;
+	transition: 0.5s linear;
+}
+
+div.menu{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2.5rem;
+    
+}
+
+div.menu{	
+	position: relative;
+	top: 90vh;
+	width: 100%;
+}
+
+div.menu a{
+	text-decoration: none;
+	color: #FFFF;
+}
+
+@media (max-width: 1000px){
+	html{
+		font-size: 50%;
+	}
+
+}
+
+@media(max-width: 768px){
+	nav{
+		display: none;
+	}
+
+	.one,
+	.two,
+	.three{
+		background-color: #ffff;
+		height: 5px;
+		width:100%;
+		margin: 6px auto;
+		top: 0px;
+		transition-duration: 0.3s;
+	}
+
+	.menu-toggle{
+		position: relative;
+		top: 90vh;
+		left: 48%;
+		width: 40px;
+		height: 30px;
+		margin-right: 20px;
+	}
+
+	.menu-section.on{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(63,127,291,0.10);
+		z-index: 10;
+	}
+
+	.menu-section.on nav{
+		display: block;
+	}
+
+	.menu-section.on .menu-toggle .one{
+		transform: rotate(45deg) translate(7px, 7px);
+	}
+
+	.menu-section.on .menu-toggle .two{
+		opacity: 0;
+	}
+
+	.menu-section.on .menu-toggle .three{
+		transform: rotate(-45deg) translate(8.5px, -8px);
+	}
+
+	.menu-section nav ul{
+		text-align: center;
+		display: block;
+	}
+
+	.menu-section nav ul{
+		text-align: center;
+		display: block;
+		transition-duration: 0.5s 
+	}
+
+	div.menu{	
+		top: 20vh;
+		left: 19%;
+		width: 60%;
+	}
+}
+
+@media(max-width: 425px){
+	.menu-toggle{
+		left: 45%;
+	}
+}
