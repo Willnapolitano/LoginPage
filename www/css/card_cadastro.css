@@ -1,0 +1,117 @@
+.card-cadastro{
+	font-family: 'Montserrat', sans-serif;
+	width: 40%;
+	height: 55vh;
+	background-color: #3F9BBF;
+	border-radius: 15px;
+	color: #FFF;
+}
+
+.card-cadastro{
+	position: relative;
+	padding: 10px;
+	top: 10%;
+	left: 30vw;
+}
+
+.card-cadastro{
+	display: block;
+}
+
+.card-cadastro div{
+	margin: 20px;
+}
+
+.card-cadastro h1{
+	text-align: center;
+	font-size: 3.5rem;
+	transition: 0.5s linear;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.card-cadastro input[type=submit]{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	cursor: pointer;
+	width: 20%;
+	height: 38px;
+	border-radius: 20px;
+	border: none;
+	background-color: #333;
+	box-shadow: 1px 1px 1px 1px black;
+	color: #FFF;
+	transition: 0.5s linear;
+}
+
+.card-cadastro input[type=submit]:hover{
+	background-color: #3333;
+	box-shadow: 1px 1px 1px 1px #333;
+}
+
+input#email{
+	width: 50%;
+	height: 38px;
+	margin: 10px;
+	border-radius: 20px;
+	border: none;
+}
+
+input#senha{
+	width: 50%;
+	height: 38px;
+	margin: 10px;
+	border-radius: 20px;
+	border: none;
+}
+
+input#nome{
+	width: 50%;
+	height: 38px;
+	margin: 10px;
+	border-radius: 20px;
+	border: none;
+}
+
+input{
+	padding: 5px;
+}
+
+input:focus{
+    box-shadow: 2px 1px 1px 1px #333;
+    border: 2px black;
+    outline: 0;
+}
+
+.enviar{
+	display: flex;
+	justify-content: space-around;
+}
+
+.senha{
+	display: flex;
+	justify-content: space-around;
+}
+
+.email{
+	display: flex;
+	justify-content: space-around;
+}
+
+.nome{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+@media(max-width: 692px){
+	.card-cadastro{
+		height: 60vh;
+	}
+
+	.card-cadastro input[type=submit]{
+		width: 70%;
+		transition: 0.5s linear;
+	}
+}
