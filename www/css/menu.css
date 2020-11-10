@@ -79,7 +79,7 @@ div.menu a{
 		left: 0;
 		width: 100vw;
 		height: 100vh;
-		background-color: rgba(63,127,291,0.10);
+		background-color: #3F9BBF;
 		z-index: 10;
 	}
 
@@ -87,6 +87,13 @@ div.menu a{
 		display: block;
 	}
 
+	div.menu ul li{
+		border-top: none;
+	}
+
+	div.menu ul li:hover{
+		border-top: none;
+	}
 	.menu-section.on .menu-toggle .one{
 		transform: rotate(45deg) translate(7px, 7px);
 	}

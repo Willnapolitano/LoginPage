@@ -6,9 +6,10 @@
     <title>LoginPage</title>
     <link rel="shortcut icon" type="image/x-icon" href="./galeria/2431Logo.ico">
     <link rel="stylesheet" type="text/css" href="./css/body.css">
-    <link rel="stylesheet" type="text/css" href="./css/responsividade-body.css">
+    <link rel="stylesheet" type="text/css" href="./css/card_login.css">
     <link rel="stylesheet" type="text/css" href="./css/menu.css">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
     <script type="text/javascript" src="./javascript/menu.js" defer></script>
   </head>
   <body>
@@ -35,7 +36,25 @@
         </nav>
     </div>
     </header>
-    <main></main>
+    <main>
+      <section>
+        <div class="card-login">
+          <form method="POST" action="./php/index.php">
+            <h1>Fazer Login</h1>
+            <div id="email">
+              <input type="email" id="f-email" name="f-email" placeholder="Email" maxlength="100"/>
+            </div>
+            <div id="password">
+              <input type="password" id="f-password" name="f-password" placeholder="Senha" maxlength="100" />
+            </div>
+            <div id="btn">
+              <input type="submit" id="f-submit" name="f-submit" value="Entrar">
+            </div>
+            <p>Ainda não tem uma conta?<a href="./html/cadastro.html">crie uma!</a></p>
+          </form>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>

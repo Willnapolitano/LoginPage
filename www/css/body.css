@@ -7,3 +7,10 @@ html{
 body{
 	font-size: 1.6rem;
 }
+
+body{
+    height: 100vh;
+    background-image: url(../galeria/backgrounds/back1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}

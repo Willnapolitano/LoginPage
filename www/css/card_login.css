@@ -1,0 +1,114 @@
+.card-login{
+	font-family: 'Montserrat', sans-serif;
+	width: 40%;
+	height: 55vh;
+	background-color: #3F9BBF;
+	border-radius: 15px;
+	color: #FFF;
+}
+
+.card-login{
+	position: relative;
+	padding: 10px;
+	top: 10%;
+	left: 30vw;
+}
+
+.card-login{
+	display: block;
+}
+
+.card-login div{
+	margin: 20px;
+}
+
+.card-login h1{
+	text-align: center;
+	font-size: 3.5rem;
+	transition: 0.5s linear;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.card-login p{
+	text-align: center;
+}
+
+.card-login input[type=submit]{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	cursor: pointer;
+	width: 20%;
+	height: 38px;
+	border-radius: 20px;
+	border: none;
+	background-color: #333;
+	box-shadow: 1px 1px 1px 1px black;
+	color: #FFF;
+	transition: 0.5s linear;
+}
+
+.card-login input[type=submit]:hover{
+	background-color: #3333;
+	box-shadow: 1px 1px 1px 1px #333;
+}
+
+.card-login a{
+	color: #ffff;
+}
+input#f-email{
+	width: 50%;
+	height: 38px;
+	margin: 10px;
+	border-radius: 20px;
+	border: none;
+}
+
+input#f-password{
+	width: 50%;
+	height: 38px;
+	margin: 10px;
+	border-radius: 20px;
+	border: none;
+}
+
+input{
+	padding: 5px;
+}
+
+input:focus{
+    box-shadow: 2px 1px 1px 1px #333;
+    border: 2px black;
+    outline: 0;
+}
+
+#btn{
+	display: flex;
+	justify-content: space-around;
+}
+
+#password{
+	display: flex;
+	justify-content: space-around;
+}
+
+#email{
+	display: flex;
+	justify-content: space-around;
+}
+
+p{
+	font-size: 2rem;
+}
+
+@media(max-width: 692px){
+	.card-login{
+		height: 60vh;
+	}
+
+	.card-login input[type=submit]{
+		width: 70%;
+		transition: 0.5s linear;
+	}
+}
