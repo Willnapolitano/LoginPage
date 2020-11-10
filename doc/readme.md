@@ -29,8 +29,8 @@
   * MYSQL
   
 # Features 
-  - [ ] Layout
-  - [ ] Responsive web design
+  - [x] Layout
+  - [x] Responsive web design
   - [ ] Login system
   - [ ] Sql protection
   - [ ] Filter
