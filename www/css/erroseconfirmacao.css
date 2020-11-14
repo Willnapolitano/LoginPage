@@ -1,0 +1,55 @@
+.erro{
+	display: flex;
+	position: relative;
+	left: 36vw;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	width: 30%;
+	height: 5%;
+	background-color: rgba(193,66,66,0.67);
+	border: 1px solid red;
+	text-align: center;
+}
+
+div.erroc{
+	background-color: rgba(63,170,191, 0.67);
+	border: 1px solid cyan;
+	display: flex;
+	position: relative;
+	left: 36vw;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	width: 30%;
+	height: 5%;
+	text-align: center;
+}
+.acerto{
+	display: flex;
+	position: relative;
+	left: 36vw;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	width: 30%;
+	height: 5%;
+	background-color: rgba(80,191,63,0.64);
+	border: 1px solid green;
+	text-align: center;
+}
+
+.acerto a{function clean(node) {
+    for (var n = 0; n < node.childNodes.length; n ++) {
+        var child = node.childNodes[n];
+        if (child.nodeType === 8 || (child.nodeType === 3 && !/\S/.test(child.nodeValue))) {
+            node.removeChild(child);
+            n --;
+        } else if(child.nodeType === 1) {
+            clean(child);
+        }
+    }
+}
+clean(document);
+	color: #fff;
+}
