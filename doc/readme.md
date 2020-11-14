@@ -42,7 +42,7 @@
   
 # Dependencies
 
-##### Some Local server (like xampp,lampp etc)
+##### Some Local server (like xampp,lampp etc) to access the sql database
 
 # How to use
 
