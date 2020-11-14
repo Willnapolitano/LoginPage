@@ -18,7 +18,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
     <script type="text/javascript" src="./javascript/menu.js" defer></script>
-    <script type="text/javascript" src="./javascript/removetextnodes.js" defer></script>
   </head>
   <body>
     <header>
