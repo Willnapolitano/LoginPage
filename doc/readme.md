@@ -38,7 +38,7 @@
   - [X] Login system
   - [X] Sql protection
   - [X] Filter
-  - [ ] Finalization
+  - [X] Finalization
   
 # Dependencies
 
@@ -48,6 +48,7 @@
 
 #### First copy this repository to your machine
 #### Second boot the local server in the repository folder
+#### Import one of the .sql files to your sql manager
 #### Have fun with your login page!
 
 # <h1 align="center">Prints</h1>
