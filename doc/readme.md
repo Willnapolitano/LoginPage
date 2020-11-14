@@ -21,7 +21,7 @@
 
 # Status
 
-#### <h4 align="center">Almost finished..🚧🔨💻</h4>
+#### <h4 align="center">finished..🚧🔨💻</h4>
 
 # Technology
 
