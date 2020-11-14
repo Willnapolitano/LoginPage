@@ -8,6 +8,9 @@
    * [Status](#status)
    * [Technology](#technology)
    * [Features](#features)
+   * [Dependencies](#dependencies)
+   * [How to use](#how-to-use)
+   * [Prints](#prints)
    * [Author](#author)
    
 
@@ -18,7 +21,7 @@
 
 # Status
 
-#### <h4 align="center">LoginPage construction in progress..🚧🔨💻</h4>
+#### <h4 align="center">Almost finished..🚧🔨💻</h4>
 
 # Technology
 
@@ -28,13 +31,37 @@
   * PHP
   * MYSQL
   
-# Features 
+# Features
+
   - [x] Layout
   - [x] Responsive web design
-  - [ ] Login system
-  - [ ] Sql protection
-  - [ ] Filter
+  - [X] Login system
+  - [X] Sql protection
+  - [X] Filter
   - [ ] Finalization
+  
+# Dependencies
+
+##### Some Local server (like xampp,lampp etc)
+
+# How to use
+
+#### First copy this repository to your machine
+#### Second boot the local server in the repository folder
+#### Have fun with your login page!
+
+# <h1 align="center">Prints</h1>
+![Print One](./Prints/Home.png)
+==============================
+![Print Two](./Prints/HomeResponsive.png)
+==============================
+![Print Three](./Prints/Register.png)
+==============================
+![Print Four](./Prints/RegisterResponsive.png)
+==============================
+![Print Five](./Prints/ThanksForLoginIn.png)
+==============================
+
   
 # <h1 align="center">Author</h1>
 
